@@ -1,0 +1,40 @@
+body{background-color: aliceblue}
+.tablecolor{ 
+background-color:lightgray;
+    
+}
+
+.subtablecolor{
+ background-color: beige;   
+}
+.text{
+    font-family:cursive,fantasy;
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+}
+.mybutton{
+    background-color:goldenrod;
+    font-family:fantasy;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.myinput{
+    background-color:antiquewhite;
+    font-family:cursive fantasy;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.heading{
+    font-family: sans-serif;
+    font-style: oblique;
+	
+/*-webkit-animation-duration: 20s;
+  -webkit-animation-delay: 10s;
+  -webkit-animation-iteration-count: infinite;
+  */  
+}
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+	<link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="design.css">
+    <script src="cipher.js"></script>
+</head>
+<body>
+   <table border="0" width="100%" class="tablecolor">
+        <tr >
+          <td align="center" valign="middle"><h1 class="heading animated infinite swing">Encryption Algorithm </h1><br>
+          <br>
+          <br>
+          <br>
+          <br></td>
+       </tr>
+       <tr>
+           <table border="0" class="subtablecolor">
+               <tr>
+                   <td><label for="cipherText" class="text">Input cipher text here:</label></td>
+                   <td><input type="text" id="cipherText" class="myinput"></td>
+               </tr>
+                <tr>
+                   <td> <label for="key"  class="text">Enter key value:</label></td>
+                   <td><input type="number" id="key" class="myinput"></td>
+               </tr>
+               <tr><td><button onclick="initial()"  class="mybutton">Encrypt the text</button></td></tr>
+               <tr><td><button onclick="second()" class="mybutton">decrypt the text</button></td></tr>
+               
+               <tr>
+                   <td  class="text">Encrypted text is:</td>
+                   <td  class="text"><input type="text" id="result" class="myinput"></td>
+               </tr>
+           </table>
+           
+       </tr>
+   </table>
+    
+ 
+
+</body>
+</html>
